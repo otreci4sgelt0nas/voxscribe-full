@@ -13,6 +13,9 @@ export default function Navbar() {
       </Flex>
       <Spacer />
       <Box>
+        <Button as={Link} href="/dashboard" variant="ghost" mr={4}>
+          Dashboard
+        </Button>
         <Button as={Link} href="/sign-in" variant="ghost" mr={4}>
           Sign In
         </Button>
